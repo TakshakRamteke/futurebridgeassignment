@@ -8,7 +8,7 @@ export default function Layout({
     return (
         <div>
             <Navbar />
-            <div className='flex h-[35rem] w-full flex-col justify-center bg-slate-400 p-10 px-28 text-white'>
+            <div className='flex h-[35rem] w-full flex-col justify-center bg-slate-500 p-10 px-28 text-white'>
                 <h1 className='text-8xl font-bold'>We are FutureBridge</h1>
                 <p className='mt-1 text-lg'>
                     The future is here. The opportunities are Limitless
