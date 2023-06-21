@@ -58,6 +58,9 @@ export default function EventCard({ event }: { event: Post }) {
                         width={400}
                         alt={event.title}
                         className='h-full rounded-r-md object-cover'
+                        loading='lazy'
+                        placeholder='blur'
+                        fetchPriority='high'
                     />
                 </div>
             </div>
